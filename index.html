@@ -1246,8 +1246,9 @@
         gap: 12px;
     }
 
-    .abl-grid .fig { margin-bottom: 0; }
-    .abl-grid .fig-img { padding: 0.8rem; background: var(--bg-alt); }
+    .abl-grid .fig { margin-bottom: 0; display: flex; flex-direction: column; }
+    .abl-grid .fig-img { padding: 0.8rem; background: var(--bg-alt); flex: 1; display: flex; align-items: center; justify-content: center; }
+    .abl-grid .fig-img img { width: 100%; height: auto; }
 
     /* ============================================================
        HALFTONE BAND (between Results and Examples)
